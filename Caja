@@ -1,0 +1,12 @@
+# Caja registradora Un cajero debe seguir pidiendo el monto de cada producto hasta que el cliente ingrese 0 para terminar. Consigna: Usar while para acumular el total.
+
+Total = 0
+
+while True:
+    Monto=float(input("Ingrese el monto del producto (escriba 0 para terminar): "))
+    if Monto == 0:
+        break
+    Total = Total + Monto
+    
+   
+print (f"El total es: ${Total}")

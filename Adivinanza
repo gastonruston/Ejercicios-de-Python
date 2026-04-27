@@ -1,0 +1,11 @@
+# Adivinanza
+
+Nombre = "Gastón"
+
+while True:
+    Adivinanza = input("Adiviná mi nombre: ")
+    if Adivinanza == Nombre:
+        break
+    print("Error. Intentá nuevamente")
+
+print("Ganaste")
